@@ -1,5 +1,5 @@
 """
-infer.py
+infer_Flow_Matching.py
 --------
 Generates a brand-new unique face on every run using a trained FlowUNet.
 
@@ -11,10 +11,8 @@ Saves to  Outputs_Flow_Matching/   (4 files per run, each tagged with a unique i
     generation_<id>.gif             — smooth animation of the full denoising process
 
 Usage:
-    python infer.py
-    python infer.py --steps 200          # more ODE steps (sharper, slower)
-    python infer.py --checkpoint path/to/model.pth
-"""
+    python infer_Flow_Matching.py
+
 
 import os
 import uuid
